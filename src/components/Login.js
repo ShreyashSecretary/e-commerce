@@ -23,38 +23,51 @@ class Login extends Component {
 
   clickLoginButton = (event) => {
     event.preventDefault();
+    var data = {
+      user_name: "ssecretary",
+      user_email: "abc@xyz.com",
+      mobile: "9999999999",
+      address: "xyz",
+    };
     // console.log("On Login click");
     // const { history } = this.props;
     // if (history) history.push("/shop/admin");
-    fetch(
-      `http://127.0.0.1:8000/user/userApi/${this.state.loginData.user_email}/${this.state.loginData.password}`,
-      {
-        method: "GET",
-        headers: { "Content-Type": "application/json" },
-      }
-    )
-      .then((data) => data.json())
-      .then((data) => {
-        console.log("User Login successfully", data);
-        this.setState({ userData: data });
-        this.setState({ isLoggedIn: true });
-        if (data.is_admin === true) {
-          const { history } = this.props;
-          if (history) history.push("/shop/admin");
-        } else {
-          this.setState({ isLoggedIn: true });
-          localStorage.setItem("Login", true);
-          localStorage.setItem("Data", JSON.stringify(data));
-          const { history } = this.props;
-          if (history) history.push("/shop/profile");
-        }
-      })
-      .catch((error) => {
-        console.error(error);
-        alert(
-          "User with entered username and password not exist please check or register user"
-        );
-      });
+    // fetch(
+    //   `http://127.0.0.1:8000/user/userApi/${this.state.loginData.user_email}/${this.state.loginData.password}`,
+    //   {
+    //     method: "GET",
+    //     headers: { "Content-Type": "application/json" },
+    //   }
+    // )
+    //   .then((data) => data.json())
+    //   .then((data) => {
+    //     console.log("User Login successfully", data);
+    //     this.setState({ userData: data });
+    //     this.setState({ isLoggedIn: true });
+    //     if (data.is_admin === true) {
+    //       const { history } = this.props;
+    //       if (history) history.push("/shop/admin");
+    //     } else {
+    //       this.setState({ isLoggedIn: true });
+    //       localStorage.setItem("Login", true);
+    //       localStorage.setItem("Data", JSON.stringify(data));
+    //       const { history } = this.props;
+    //       if (history) history.push("/shop/profile");
+    //     }
+    //   })
+    //   .catch((error) => {
+    //     console.error(error);
+    //     alert(
+    //       "User with entered username and password not exist please check or register user"
+    //     );
+    //   });
+    console.log("User Login successfully", data);
+    this.setState({ userData: data });
+    this.setState({ isLoggedIn: true });
+    localStorage.setItem("Login", true);
+    localStorage.setItem("Data", JSON.stringify(data));
+    const { history } = this.props;
+    history.push("/shop/profile");
   };
 
   clickRegisterHandler = (event) => {

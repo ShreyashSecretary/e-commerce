@@ -9,51 +9,73 @@ class UserAuthLogin extends Component {
 
   //   user login check
   submitHandler = (event) => {
-    fetch("http://127.0.0.1:8000/login/user/", {
-      method: "POST",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify(this.state.credentials),
-    })
-      .then((data) => data.json())
-      .then((data) => {
-        console.log("Logged in user :  ", data);
-        if (data.token != undefined) {
-          localStorage.setItem("Login", true);
-          localStorage.setItem("Token", data.token);
-        }
-        // const { history } = this.props;
-        // if (history) history.push("/books");
-        // this.props.userLogin(data.token);
-      })
-      .catch((error) => {
-        console.log(error);
-      });
+    var data = {
+      user_name: "ssecretary",
+      user_email: "abc@xyz.com",
+      mobile: "9999999999",
+      address: "xyz",
+      token: "scdhgkfhththhyrhrg",
+    };
+    // fetch("http://127.0.0.1:8000/login/user/", {
+    //   method: "POST",
+    //   headers: { "Content-Type": "application/json" },
+    //   body: JSON.stringify(this.state.credentials),
+    // })
+    //   .then((data) => data.json())
+    //   .then((data) => {
+    //     console.log("Logged in user :  ", data);
+    //     if (data.token != undefined) {
+    //       localStorage.setItem("Login", true);
+    //       localStorage.setItem("Token", data.token);
+    //     }
+    //     // const { history } = this.props;
+    //     // if (history) history.push("/books");
+    //     // this.props.userLogin(data.token);
+    //   })
+    //   .catch((error) => {
+    //     console.log(error);
+    //   });
     // console.log(this.state.credentials);
+    localStorage.setItem("Login", true);
+    localStorage.setItem("Token", data.token);
+    localStorage.setItem("Data", data);
   };
 
   //   user registration
   registerHandler = (event) => {
     event.preventDefault();
-    fetch("http://127.0.0.1:8000/auth/", {
-      method: "POST",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify(this.state.credentials),
-    })
-      .then((data) => data.json())
-      .then((data) => {
-        console.log(data);
-        if (data.is_admin === true) {
-          const { history } = this.props;
-          if (history) history.push("/shop/admin");
-        } else {
-          this.setState({ isLoggedIn: true });
-          localStorage.setItem("Login", true);
-          localStorage.setItem("Data", JSON.stringify(data));
-          const { history } = this.props;
-          if (history) history.push("/shop/profile");
-        }
-      })
-      .catch((error) => console.log(error));
+    var data = {
+      user_name: "ssecretary",
+      user_email: "abc@xyz.com",
+      mobile: "9999999999",
+      address: "xyz",
+    };
+    // fetch("http://127.0.0.1:8000/auth/", {
+    //   method: "POST",
+    //   headers: { "Content-Type": "application/json" },
+    //   body: JSON.stringify(this.state.credentials),
+    // })
+    //   .then((data) => data.json())
+    //   .then((data) => {
+    //     console.log(data);
+    //     if (data.is_admin === true) {
+    //       const { history } = this.props;
+    //       if (history) history.push("/shop/admin");
+    //     } else {
+    //       this.setState({ isLoggedIn: true });
+    //       localStorage.setItem("Login", true);
+    //       localStorage.setItem("Data", JSON.stringify(data));
+    //       const { history } = this.props;
+    //       if (history) history.push("/shop/profile");
+    //     }
+    //   })
+    //   .catch((error) => console.log(error));
+
+    this.setState({ isLoggedIn: true });
+    localStorage.setItem("Login", true);
+    localStorage.setItem("Data", JSON.stringify(data));
+    const { history } = this.props;
+    if (history) history.push("/shop/profile");
   };
 
   changedHandler = (event) => {

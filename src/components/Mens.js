@@ -1,9 +1,11 @@
 import { Col, Row } from "antd";
 import React, { Component } from "react";
+import { EcommerceDataProvider } from "../DataProviders/DataProvider";
 import SideBar from "./SideBar/SideBar";
 import SingleProduct from "./SingleProduct";
 
 class Mens extends Component {
+  dataProvider = new EcommerceDataProvider();
   state = {
     products: [],
     category: this.props.category,
@@ -12,25 +14,17 @@ class Mens extends Component {
   };
 
   componentDidMount() {
-    let api = null;
-    if (this.state.category !== undefined) {
-      api = `http://127.0.0.1:8000/shop/master/masters.Products/list?page=1&product_type=${this.state.category}&filter=1&product_category=mens&filter=2`;
-    } else {
-      api = `http://127.0.0.1:8000/shop/master/masters.Products/list?page=1&product_category=mens&filter=1`;
-    }
-    fetch(api, {
-      method: "GET",
-      headers: {
-        "Content-Type": "aplication/json",
-        Authorization: "Token c9febb362b29cbb89d0e0f14ee2481a4ee193bd3",
-      },
-    })
-      .then((data) => data.json())
-      .then((data) => {
-        this.setState({ products: data.results });
-        console.log("Mens Product ::", data);
-      })
-      .catch((error) => console.log("Error ", error));
+    var product = [];
+    this.dataProvider
+      .getAllProductsCategoryWise("men's clothing")
+      .then((res) => res.json())
+      .then((val) => {
+        val.map((item) => {
+          console.log("single item : ", item);
+          product.push(item);
+        });
+      });
+    this.setState({ products: product });
   }
 
   handleSizeChange = (size) => {
@@ -147,17 +141,14 @@ class Mens extends Component {
   };
 
   render() {
-    // const { category } = this.props;
-    // console.log("Size : ", this.state.sizes);
-    // console.log("Color : ", this.state.color);
-    // console.log("Products : ", this.state.products);
+    console.log("Products : ", this.state.products);
     return (
       <div style={{ display: "flex", flexDirection: "row" }}>
         <div>
           <SideBar
             sizes={this.state.sizes}
-            handleSizeChange={this.handleSizeChange}
-            handleColorChange={this.handleColorChange}
+            // handleSizeChange={this.handleSizeChange}
+            // handleColorChange={this.handleColorChange}
           />
         </div>
         <div style={{ display: "flex", justifyContent: "center" }}>

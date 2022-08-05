@@ -61,8 +61,8 @@ class SingleProduct extends Component {
     const { item } = this.props;
     // console.log("Item ::", item);
     return (
-      <div
-        className="product"
+      <Card
+        // className="product"
         style={{
           // border: "solid",
           padding: "20px",
@@ -73,7 +73,6 @@ class SingleProduct extends Component {
           backgroundColor: "white",
           cursor: "pointer",
         }}
-        // onClick={this.itemClick(item)}
       >
         <div
           style={{
@@ -97,7 +96,7 @@ class SingleProduct extends Component {
             }}
             height="150vh"
             width="200vw"
-            src={item.product_image}
+            src={item.image}
           ></img>
           {item !== undefined ? (
             <div
@@ -109,20 +108,28 @@ class SingleProduct extends Component {
               }}
             >
               <div
-                style={{ marginLeft: "4vw", marginRight: "20px" }}
-                className="product-name"
+                style={{
+                  // marginLeft: "4vw",
+                  marginRight: "20px",
+                  width: "100px",
+                  height: "20px",
+                  textOverflow: "ellipsis",
+                  overflow: "hidden",
+                }}
+                // className="product-name"
               >
-                {item.product_name}
+                {item.title}
               </div>
-              <div style={{ marginRight: "4vw" }} className="product-price">
-                {item.product_price}
+              <br></br>
+              <div style={{ marginRight: "5px" }} className="product-price">
+                {item.price}
               </div>
             </div>
           ) : (
             <div></div>
           )}
         </div>
-      </div>
+      </Card>
     );
   }
 }

@@ -1,55 +1,32 @@
 import { Col, Row } from "antd";
 import React, { Component } from "react";
+import { EcommerceDataProvider } from "../DataProviders/DataProvider";
 import SideBar from "./SideBar/SideBar";
 import SingleProduct from "./SingleProduct";
 
-class Womens extends Component {
+class Jewellery extends Component {
+  dataProvider = new EcommerceDataProvider();
   state = {
     products: [],
-    category: this.props.category,
     sizes: [],
   };
 
   componentDidMount() {
-    let api = null;
-    if (this.state.category !== undefined) {
-      api = `http://127.0.0.1:8000/shop/master/masters.Products/list?page=1&product_type=${this.state.category}&filter=1&product_category=kids&filter=2`;
-    } else {
-      api = `http://127.0.0.1:8000/shop/master/masters.Products/list?page=1&product_category=kids&filter=1`;
-    }
-    fetch(api, {
-      method: "GET",
-      headers: {
-        "Content-Type": "aplication/json",
-        Authorization: "Token c9febb362b29cbb89d0e0f14ee2481a4ee193bd3",
-      },
-    })
-      .then((data) => data.json())
-      .then((data) => {
-        this.setState({ products: data.results });
-        console.log("Kids Product ::", data);
-      })
-      .catch((error) => console.log("Error ", error));
+    var product = [];
+    this.dataProvider
+      .getAllProductsCategoryWise("jewelery")
+      .then((res) => res.json())
+      .then((val) => {
+        val.map((item) => {
+          product.push(item);
+        });
+      });
+    this.setState({ products: product });
   }
-
-  handleSizeChange = (size) => {
-    if (this.state.sizes.includes(size)) {
-      this.setState({ sizes: this.state.sizes.filter((s) => s !== size) });
-    } else {
-      // this.state.sizes.push(size);
-      this.setState({ sizes: [...this.state.sizes, size] });
-    }
-  };
 
   render() {
     return (
       <div style={{ display: "flex", flexDirection: "row" }}>
-        <div>
-          <SideBar
-            sizes={this.state.sizes}
-            handleSizeChange={this.handleSizeChange}
-          />
-        </div>
         <div style={{ display: "flex", justifyContent: "center" }}>
           {this.state.products.length !== 0 ? (
             <div>
@@ -87,4 +64,4 @@ class Womens extends Component {
   }
 }
 
-export default Womens;
+export default Jewellery;

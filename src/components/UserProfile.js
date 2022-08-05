@@ -4,7 +4,7 @@ import { withRouter } from "react-router-dom";
 
 export class UserProfile extends Component {
   state = {
-    userData: JSON.parse(localStorage.getItem("Data")),
+    // userData: JSON.parse(localStorage.getItem("Data")),
   };
 
   logoutHandler = (e) => {
@@ -30,7 +30,7 @@ export class UserProfile extends Component {
   };
 
   render() {
-    console.log("User Profile :: ", this.state.userData.user_name);
+    // console.log("User Profile :: ", this.state.userData.user_name);
     return (
       <div>
         <div
@@ -57,13 +57,13 @@ export class UserProfile extends Component {
               marginTop: "30px",
             }}
           >
-            <label>UserName : {this.state.userData.user_name}</label>
+            <label>UserName : ssecretary</label>
             <br />
-            <label>UserEmail : {this.state.userData.user_email}</label>
+            <label>UserEmail : abc.xyz.com</label>
             <br />
-            <label>Mobile : {this.state.userData.mobile}</label>
+            <label>Mobile : 9999999999</label>
             <br />
-            <label>Address : {this.state.userData.address} </label>
+            <label>Address : asdfgghhhgh </label>
             <br />
             <Button style={{ background: null }} onClick={this.editHandler}>
               Edit

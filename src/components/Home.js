@@ -3,8 +3,10 @@ import React, { Component } from "react";
 import SingleProduct from "./SingleProduct";
 import { Col } from "antd";
 import Footer from "./Footer";
+import { EcommerceDataProvider } from "../DataProviders/DataProvider";
 
 class Home extends Component {
+  dataProvider = new EcommerceDataProvider();
   constructor(props) {
     super(props);
 
@@ -17,30 +19,20 @@ class Home extends Component {
   }
 
   componentDidMount() {
-    fetch("http://127.0.0.1:8000/user/productApi", {
-      method: "GET",
-      headers: {
-        "Content-Type": "application/json",
-        // Authorization: "Token c9febb362b29cbb89d0e0f14ee2481a4ee193bd3",
-      },
-      // body: JSON.stringify(this.state.credentials),
-    })
-      .then((data) => data.json())
-      .then((data) => {
-        this.setState({ products: data });
-        console.log("Data   :::   ", data);
-        this.setState({ list: this.state.products.slice(0, 4) });
-        console.log("Slice", this.state.list);
-
-        console.log("Data Product  :::   ", this.state.products);
-        this.setState({ productLoaded: true });
-        // console.log("Loaded", this.state.productLoaded);
-      })
-      .catch((error) => console.error(error));
+    var products = [];
+    this.dataProvider
+      .getAllProducts()
+      .then((res) => res.json())
+      .then((val) => {
+        val.map((item, id) => {
+          products.push(item);
+        });
+      });
+    this.setState({ products: products });
   }
 
   render() {
-    console.log("Length :: ", this.state.products);
+    console.log("Home products : ", this.state.products);
     return (
       <div>
         <div>
@@ -81,11 +73,15 @@ class Home extends Component {
             >
               {/*MAP WILL COME HERE */}
 
-              {this.state.productLoaded &&
-                this.state.list.map((element, index) => (
-                  <Col span={6}>
-                    <SingleProduct item={element} />
-                  </Col>
+              {this.state.products &&
+                this.state.products.map((element, index) => (
+                  <div>
+                    {element.category === "jewelery" && (
+                      // <Col span={6} key={index}>
+                      <SingleProduct item={element} />
+                      // </Col>
+                    )}
+                  </div>
                 ))}
             </div>
 
@@ -115,11 +111,15 @@ class Home extends Component {
               }}
             >
               {/*MAP WILL COME HERE */}
-              {this.state.productLoaded &&
-                this.state.list.map((element, index) => (
-                  <Col span={6}>
-                    <SingleProduct item={element} />
-                  </Col>
+              {this.state.products &&
+                this.state.products.map((element, index) => (
+                  <div>
+                    {element.category === "electronics" && (
+                      // <Col span={6} key={index}>
+                      <SingleProduct item={element} />
+                      // </Col>
+                    )}
+                  </div>
                 ))}
             </div>
 
@@ -149,11 +149,15 @@ class Home extends Component {
               }}
             >
               {/*MAP WILL COME HERE */}
-              {this.state.productLoaded &&
-                this.state.list.map((element, index) => (
-                  <Col span={6}>
-                    <SingleProduct item={element} />
-                  </Col>
+              {this.state.products &&
+                this.state.products.map((element, index) => (
+                  <div>
+                    {element.category === "men's clothing" && (
+                      // <Col span={6} key={index}>
+                      <SingleProduct item={element} />
+                      // </Col>
+                    )}
+                  </div>
                 ))}
             </div>
 
@@ -183,11 +187,15 @@ class Home extends Component {
               }}
             >
               {/*MAP WILL COME HERE */}
-              {this.state.productLoaded &&
-                this.state.list.map((element, index) => (
-                  <Col span={6}>
-                    <SingleProduct item={element} />
-                  </Col>
+              {this.state.products &&
+                this.state.products.map((element, index) => (
+                  <div>
+                    {element.category === "women's clothing" && (
+                      // <Col span={6} key={index}>
+                      <SingleProduct item={element} />
+                      // </Col>
+                    )}
+                  </div>
                 ))}
             </div>
           </div>

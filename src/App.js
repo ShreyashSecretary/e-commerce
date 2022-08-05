@@ -5,7 +5,7 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Home from "./components/Home";
 import Mens from "./components/Mens";
 import Womens from "./components/Womens";
-import Kids from "./components/Kids";
+import Kids from "./components/jewellery";
 import CheckOut from "./components/CheckOut";
 import Profile from "./components/Profile";
 import Login from "./components/Login";
@@ -19,6 +19,8 @@ import OrderPage from "./components/Orders/OrderPage";
 import OrderedItems from "./components/Orders/OrderedItems";
 import UserAuthLogin from "./components/AuthLogin/UserAuthLogin";
 import UserAuthRegistration from "./components/AuthLogin/UserAuthRegistration";
+import Jewellery from "./components/jewellery";
+import electronics from "./components/electronics";
 
 const App = () => {
   return (
@@ -70,27 +72,8 @@ const App = () => {
             exact
           />
 
-          <Route path="/shop/kids" component={Kids} exact />
-          <Route
-            path="/shop/kids/t-shirt"
-            render={() => <Kids category="tshirt" />}
-            exact
-          />
-          <Route
-            path="/shop/kids/shirt"
-            render={() => <Kids category="shirt" />}
-            exact
-          />
-          <Route
-            path="/shop/kids/jeans"
-            render={() => <Kids category="jeans" />}
-            exact
-          />
-          <Route
-            path="/shop/kids/shoes"
-            render={() => <Kids category="shoes" />}
-            exact
-          />
+          <Route path="/shop/jewellery" component={Jewellery} exact />
+          <Route path="/shop/electronics" component={electronics} exact />
 
           <Route path="/shop/profile" component={Profile} exact />
           <Route path="/shop/profile/login" component={Login} exact />

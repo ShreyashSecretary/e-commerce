@@ -11,7 +11,7 @@ class Cart extends Component {
     this.state = {
       data: [],
       isLoggin: false,
-      totalPrice: null,
+      totalPrice: 500,
     };
   }
 
@@ -30,29 +30,32 @@ class Cart extends Component {
   componentDidMount() {
     if (localStorage.getItem("Login")) {
       this.setState({ isLoggin: true });
-      const user = JSON.parse(localStorage.getItem("Data"));
-      console.log(`http://127.0.0.1:8000/user/cartApi/${user.user_id}`);
-      fetch(`http://127.0.0.1:8000/user/cartApi/${user.user_id}`, {
-        method: "GET",
-        headers: { "Content-Type": "application/json" },
-      })
-        .then((data) => data.json())
-        .then((data) => {
-          console.log("Cart items ::: ", data);
-          this.setState({ data: data });
-          let totalPrice = 0;
-          data.forEach((element) => {
-            console.log("In cart :: ", element);
-            if (element.is_active) {
-              totalPrice += element.quantity * element.products.product_price;
-            }
-          });
-          // data.map((i) => {
-          // });
-          // console.log("Total price :: ", totalPrice);
-          this.setState({ totalPrice });
-        })
-        .catch((error) => console.log("Error ::: ", error));
+      var data = localStorage.getItem("CartData");
+      console.log("Cart Data : ", JSON.parse(data));
+      this.setState({ data: data });
+      // const user = JSON.parse(localStorage.getItem("Data"));
+      // console.log(`http://127.0.0.1:8000/user/cartApi/${user.user_id}`);
+      // fetch(`http://127.0.0.1:8000/user/cartApi/${user.user_id}`, {
+      //   method: "GET",
+      //   headers: { "Content-Type": "application/json" },
+      // })
+      //   .then((data) => data.json())
+      //   .then((data) => {
+      //     console.log("Cart items ::: ", data);
+      //     this.setState({ data: data });
+      //     let totalPrice = 0;
+      //     data.forEach((element) => {
+      //       console.log("In cart :: ", element);
+      //       if (element.is_active) {
+      //         totalPrice += element.quantity * element.products.product_price;
+      //       }
+      //     });
+      //     // data.map((i) => {
+      //     // });
+      //     // console.log("Total price :: ", totalPrice);
+      //     this.setState({ totalPrice });
+      //   })
+      //   .catch((error) => console.log("Error ::: ", error));
     } else {
       this.setState({ isLoggin: false });
     }
@@ -90,9 +93,10 @@ class Cart extends Component {
                     span={14}
                     style={{ border: "5px #D3D3D3", marginLeft: "20px" }}
                   >
-                    {this.state.data.map((item, index) => (
-                      <CartItem item={item} handleChange={this.handleChange} />
-                    ))}
+                    <CartItem
+                      item={this.state.data}
+                      handleChange={this.handleChange}
+                    />
                   </Col>
                   <Col span={8}>
                     <Card
@@ -104,7 +108,7 @@ class Cart extends Component {
                         borderRadius: "5px",
                       }}
                     >
-                      <h4>Total Amount : {this.state.totalPrice}</h4>
+                      <h4>Total Amount : 500</h4>
                       <br></br>
                       <Button
                         type="primary"

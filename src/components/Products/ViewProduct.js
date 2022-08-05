@@ -1,8 +1,10 @@
 /* eslint-disable jsx-a11y/alt-text */
 import { Button, Card, Col, Row, notification } from "antd";
 import React, { Component } from "react";
+import { EcommerceDataProvider } from "../../DataProviders/DataProvider";
 
 export class ViewProduct extends Component {
+  dataProvider = new EcommerceDataProvider();
   constructor(props) {
     super(props);
 
@@ -14,27 +16,33 @@ export class ViewProduct extends Component {
   }
 
   componentDidMount() {
-    fetch(
-      `http://127.0.0.1:8000/user/productApiSerial/${this.state.item.product_serialNo}`,
-      {
-        method: "GET",
-        headers: {
-          "Content-Type": "aplication/json",
-          // Authorization: "Token c9febb362b29cbb89d0e0f14ee2481a4ee193bd3",
-        },
-      }
-    )
-      .then((data) => data.json())
-      .then((data) => {
-        console.log("Mens Product ::", data);
-        data.results.forEach((element) => {
-          console.log("Size : ", element.product_size);
-          if (!this.state.size.includes(element.product_size)) {
-            this.setState({ size: [...this.state.size, element.product_size] });
-          }
-        });
-      })
-      .catch((error) => console.log("Error ", error));
+    console.log("Id ; ", this.state.item);
+    // this.dataProvider.getSingleProductDetails(this.state.item.id).then((res) => {
+    //   res.json()
+    // }).then((val) => {
+
+    // })
+    // fetch(
+    //   `http://127.0.0.1:8000/user/productApiSerial/${this.state.item.product_serialNo}`,
+    //   {
+    //     method: "GET",
+    //     headers: {
+    //       "Content-Type": "aplication/json",
+    //       // Authorization: "Token c9febb362b29cbb89d0e0f14ee2481a4ee193bd3",
+    //     },
+    //   }
+    // )
+    //   .then((data) => data.json())
+    //   .then((data) => {
+    //     console.log("Mens Product ::", data);
+    //     data.results.forEach((element) => {
+    //       console.log("Size : ", element.product_size);
+    //       if (!this.state.size.includes(element.product_size)) {
+    //         this.setState({ size: [...this.state.size, element.product_size] });
+    //       }
+    //     });
+    //   })
+    //   .catch((error) => console.log("Error ", error));
   }
 
   sizeHandler = (size) => (e) => {
@@ -48,34 +56,42 @@ export class ViewProduct extends Component {
     if (localStorage.getItem("Login")) {
       console.log("Cart Data ::: ", this.state.item);
       if (this.state.selectedSize !== null) {
-        const user = JSON.parse(localStorage.getItem("Data"));
+        // const user = JSON.parse(localStorage.getItem("Data"));
         var cartData = {
-          user: user.user_id,
+          user: "ssecretary",
           products: this.state.item.product_id,
           quantity: 1,
           size: this.state.selectedSize,
           is_active: true,
         };
         console.log("Passing data : ", cartData);
-        fetch("http://127.0.0.1:8000/user/cartApi/", {
-          method: "POST",
-          headers: { "Content-Type": "application/json" },
-          body: JSON.stringify(cartData),
-        })
-          .then((data) => data.json())
-          .then((data) => {
-            console.log("Data Added successfully  ", data);
-            notification["success"]({
-              message: "Add to cart",
-              description: "Item added to cart successfully",
-              // onClick: () => {
-              //   console.log('Notification Clicked!');
-              // },
-            });
-          })
-          .catch((error) => {
-            console.error(error);
-          });
+        localStorage.setItem("CartData", JSON.stringify(cartData));
+        notification["success"]({
+          message: "Add to cart",
+          description: "Item added to cart successfully",
+          // onClick: () => {
+          //   console.log('Notification Clicked!');
+          // },
+        });
+        // fetch("http://127.0.0.1:8000/user/cartApi/", {
+        //   method: "POST",
+        //   headers: { "Content-Type": "application/json" },
+        //   body: JSON.stringify(cartData),
+        // })
+        //   .then((data) => data.json())
+        //   .then((data) => {
+        //     console.log("Data Added successfully  ", data);
+        //     notification["success"]({
+        //       message: "Add to cart",
+        //       description: "Item added to cart successfully",
+        //       // onClick: () => {
+        //       //   console.log('Notification Clicked!');
+        //       // },
+        //     });
+        //   })
+        //   .catch((error) => {
+        //     console.error(error);
+        //   });
       } else {
         // alert("Please select size");
         notification["info"]({
@@ -118,16 +134,16 @@ export class ViewProduct extends Component {
                     margin: "auto",
                     width: "60%",
                   }}
-                  src={this.state.item.product_image}
+                  src={this.state.item.image}
                 />
               </div>
             </Col>
             <Col className="gutter-row" span={12}>
               <div style={{ display: "flex", flexDirection: "column" }}>
-                <h2>{this.state.item.product_name}</h2>
-                <p>{this.state.item.product_desc}</p>
+                <h2>{this.state.item.title}</h2>
+                <p>{this.state.item.description}</p>
                 <h4 style={{ fontWeight: "bold" }}>
-                  Price : {this.state.item.product_price}Rs
+                  Price : {this.state.item.price}Rs
                 </h4>
               </div>
               <div>
