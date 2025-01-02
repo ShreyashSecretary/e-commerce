@@ -2,6 +2,47 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+
+# E-Commerce Website
+
+An **E-Commerce Website** that allows users to browse products by categories and subcategories, add items to the cart, and complete purchases. The application uses **React** for the frontend and **Django** for the backend, with a database (e.g., **SQLite** or **PostgreSQL**) to manage products, orders, and user information.
+
+## 🚀 Features
+
+- **User Authentication**: Allows users to register, log in, and manage their profiles.
+- **Product Categories & Subcategories**: Products are organized by categories and subcategories for easy browsing.
+- **Shopping Cart**: Users can add products to the shopping cart and proceed to checkout.
+- **Product Details**: Each product has detailed information, such as name, price, description, and images.
+- **Order Management**: Users can view their order history and track orders.
+- **Responsive Design**: The website is mobile-friendly and adapts to different screen sizes.
+
+## 🛠️ Technologies Used
+
+- **Frontend**:
+  - **React**: JavaScript library for building dynamic user interfaces.
+  - **React Router**: For handling navigation between pages (e.g., product pages, cart, etc.).
+  - **Axios**: For making HTTP requests to interact with the backend.
+  - **Redux**: For state management, particularly for the shopping cart and user authentication.
+  - **CSS/Styled-components**: For styling the components and making the site responsive.
+
+- **Backend**:
+  - **Django**: Web framework for building the backend API and managing database models.
+  - **Django REST Framework (DRF)**: For building the RESTful API endpoints.
+  - **SQLite/PostgreSQL**: Relational databases for storing product, user, and order data.
+  - **JWT Authentication**: For secure user authentication and session management.
+
+## 🚀 Getting Started
+
+Follow the steps below to set up and run the E-Commerce website locally.
+
+### 1. Clone the Repository
+
+Clone the repository to your local machine:
+
+```bash
+git clone https://github.com/your-username/e-commerce.git
+
+
 ## Available Scripts
 
 In the project directory, you can run:
