@@ -1,0 +1,406 @@
+[2021-09-20 14:32:48,985] -- INFO - decorators.py -- wrap - Line no - 71 --  GET by -- abcd -- IP -- 127.0.0.1
+
+[2021-09-20 14:33:42,263] -- INFO - decorators.py -- wrap - Line no - 71 --  GET by -- abcd -- IP -- 127.0.0.1
+
+[2021-09-20 14:36:48,404] -- INFO - decorators.py -- wrap - Line no - 71 --  GET by -- abcd -- IP -- 127.0.0.1
+
+[2021-09-20 14:53:23,367] -- INFO - decorators.py -- wrap - Line no - 71 --  GET by -- abcd -- IP -- 127.0.0.1
+
+[2021-09-20 15:26:50,774] -- INFO - decorators.py -- wrap - Line no - 71 --  GET by -- abcd -- IP -- 127.0.0.1
+
+[2021-09-20 15:32:47,402] -- INFO - decorators.py -- wrap - Line no - 71 --  GET by -- abcd -- IP -- 127.0.0.1
+
+[2021-09-20 15:33:10,432] -- INFO - decorators.py -- wrap - Line no - 71 --  GET by -- abcd -- IP -- 127.0.0.1
+
+[2021-09-20 15:33:43,841] -- INFO - decorators.py -- wrap - Line no - 71 --  GET by -- abcd -- IP -- 127.0.0.1
+
+[2021-09-20 15:34:32,299] -- INFO - decorators.py -- wrap - Line no - 71 --  GET by -- abcd -- IP -- 127.0.0.1
+
+[2021-09-20 15:35:40,860] -- INFO - decorators.py -- wrap - Line no - 71 --  GET by -- abcd -- IP -- 127.0.0.1
+
+[2021-09-20 15:37:11,741] -- INFO - decorators.py -- wrap - Line no - 71 --  GET by -- abcd -- IP -- 127.0.0.1
+
+[2021-09-20 15:37:22,840] -- INFO - decorators.py -- wrap - Line no - 71 --  GET by -- abcd -- IP -- 127.0.0.1
+
+[2021-09-20 15:38:57,178] -- INFO - decorators.py -- wrap - Line no - 71 --  GET by -- abcd -- IP -- 127.0.0.1
+
+[2021-09-20 15:40:37,007] -- INFO - decorators.py -- wrap - Line no - 71 --  GET by -- abcd -- IP -- 127.0.0.1
+
+[2021-09-20 15:40:46,696] -- INFO - decorators.py -- wrap - Line no - 71 --  GET by -- abcd -- IP -- 127.0.0.1
+
+[2021-09-20 15:40:46,735] -- INFO - decorators.py -- wrap - Line no - 71 --  GET by -- abcd -- IP -- 127.0.0.1
+
+[2021-09-20 15:40:46,743] -- INFO - decorators.py -- wrap - Line no - 71 --  GET by -- abcd -- IP -- 127.0.0.1
+
+[2021-09-20 15:40:47,187] -- INFO - decorators.py -- wrap - Line no - 71 --  GET by -- abcd -- IP -- 127.0.0.1
+
+[2021-09-20 15:40:52,588] -- INFO - decorators.py -- wrap - Line no - 71 --  GET by -- abcd -- IP -- 127.0.0.1
+
+[2021-09-20 15:40:54,615] -- INFO - decorators.py -- wrap - Line no - 71 --  GET by -- abcd -- IP -- 127.0.0.1
+
+[2021-09-20 15:40:54,623] -- INFO - decorators.py -- wrap - Line no - 71 --  GET by -- abcd -- IP -- 127.0.0.1
+
+[2021-09-20 15:40:54,639] -- INFO - decorators.py -- wrap - Line no - 71 --  GET by -- abcd -- IP -- 127.0.0.1
+
+[2021-09-20 15:40:56,182] -- INFO - decorators.py -- wrap - Line no - 71 --  GET by -- abcd -- IP -- 127.0.0.1
+
+[2021-09-20 15:40:58,793] -- INFO - decorators.py -- wrap - Line no - 71 --  GET by -- abcd -- IP -- 127.0.0.1
+
+[2021-09-20 15:40:58,809] -- INFO - decorators.py -- wrap - Line no - 71 --  GET by -- abcd -- IP -- 127.0.0.1
+
+[2021-09-20 15:41:00,467] -- INFO - decorators.py -- wrap - Line no - 71 --  GET by -- abcd -- IP -- 127.0.0.1
+
+[2021-09-20 15:41:03,592] -- INFO - decorators.py -- wrap - Line no - 71 --  GET by -- abcd -- IP -- 127.0.0.1
+
+[2021-09-20 15:41:04,816] -- INFO - decorators.py -- wrap - Line no - 71 --  GET by -- abcd -- IP -- 127.0.0.1
+
+[2021-09-20 15:41:13,134] -- INFO - decorators.py -- wrap - Line no - 71 --  GET by -- abcd -- IP -- 127.0.0.1
+
+[2021-09-20 15:42:47,438] -- INFO - decorators.py -- wrap - Line no - 71 --  GET by -- abcd -- IP -- 127.0.0.1
+
+[2021-09-20 15:50:08,965] -- INFO - decorators.py -- wrap - Line no - 71 --  POST by -- abcd -- IP -- 127.0.0.1
+
+[2021-09-20 15:50:10,741] -- INFO - views.py -- post - Line no - 195 -- POST by -- abcd DATA -- {'order_id': 8, 'created_date': '2021-09-20T15:50:09.053201+05:30', 'last_updated_date': '2021-09-20T15:50:09.053201+05:30', 'order_date': '2021-09-20', 'is_approved': False, 'is_active': True, 'is_deleted': False, 'created_by': 'abcd', 'last_updated_by': 'abcd', 'order_price': 500.0, 'order_address': 'qwe rewse rtygfr', 'order_quantity': 1, 'status': 'Draft', 'name': None, 'user': 1} IP -- 127.0.0.1
+
+[2021-09-20 15:50:10,749] -- INFO - views.py -- post - Line no - 198 -- POST Successfully Executed by -- abcd -- IP -- 127.0.0.1
+
+[2021-09-20 15:51:09,282] -- INFO - decorators.py -- wrap - Line no - 71 --  POST by -- abcd -- IP -- 127.0.0.1
+
+[2021-09-20 15:51:09,322] -- INFO - views.py -- post - Line no - 195 -- POST by -- abcd DATA -- {'order_id': 9, 'created_date': '2021-09-20T15:51:09.322325+05:30', 'last_updated_date': '2021-09-20T15:51:09.322325+05:30', 'order_date': '2021-09-20', 'is_approved': False, 'is_active': True, 'is_deleted': False, 'created_by': 'abcd', 'last_updated_by': 'abcd', 'order_price': 500.0, 'order_address': 'qwe rewse rtygfr', 'order_quantity': 1, 'status': 'Draft', 'name': None, 'user': 1} IP -- 127.0.0.1
+
+[2021-09-20 15:51:09,330] -- INFO - views.py -- post - Line no - 198 -- POST Successfully Executed by -- abcd -- IP -- 127.0.0.1
+
+[2021-09-20 15:51:09,746] -- INFO - decorators.py -- wrap - Line no - 71 --  GET by -- abcd -- IP -- 127.0.0.1
+
+[2021-09-20 15:51:43,729] -- INFO - decorators.py -- wrap - Line no - 71 --  GET by -- abcd -- IP -- 127.0.0.1
+
+[2021-09-20 15:52:02,063] -- INFO - decorators.py -- wrap - Line no - 71 --  GET by -- abcd -- IP -- 127.0.0.1
+
+[2021-09-20 15:52:37,186] -- INFO - decorators.py -- wrap - Line no - 71 --  GET by -- abcd -- IP -- 127.0.0.1
+
+[2021-09-20 16:06:14,792] -- INFO - decorators.py -- wrap - Line no - 71 --  GET by -- abcd -- IP -- 127.0.0.1
+
+[2021-09-20 16:06:45,309] -- INFO - decorators.py -- wrap - Line no - 71 --  GET by -- abcd -- IP -- 127.0.0.1
+
+[2021-09-20 16:06:55,884] -- INFO - decorators.py -- wrap - Line no - 71 --  GET by -- abcd -- IP -- 127.0.0.1
+
+[2021-09-20 16:06:58,415] -- INFO - decorators.py -- wrap - Line no - 71 --  GET by -- abcd -- IP -- 127.0.0.1
+
+[2021-09-20 16:07:13,907] -- INFO - decorators.py -- wrap - Line no - 71 --  GET by -- abcd -- IP -- 127.0.0.1
+
+[2021-09-20 16:20:56,963] -- INFO - decorators.py -- wrap - Line no - 71 --  GET by -- abcd -- IP -- 127.0.0.1
+
+[2021-09-20 16:21:01,348] -- INFO - decorators.py -- wrap - Line no - 71 --  GET by -- abcd -- IP -- 127.0.0.1
+
+[2021-09-20 16:21:07,889] -- INFO - decorators.py -- wrap - Line no - 71 --  GET by -- abcd -- IP -- 127.0.0.1
+
+[2021-09-20 16:21:07,915] -- INFO - decorators.py -- wrap - Line no - 71 --  GET by -- abcd -- IP -- 127.0.0.1
+
+[2021-09-20 16:26:23,943] -- INFO - decorators.py -- wrap - Line no - 71 --  GET by -- abcd -- IP -- 127.0.0.1
+
+[2021-09-20 16:26:23,944] -- INFO - decorators.py -- wrap - Line no - 71 --  GET by -- abcd -- IP -- 127.0.0.1
+
+[2021-09-20 16:26:31,347] -- INFO - decorators.py -- wrap - Line no - 71 --  POST by -- abcd -- IP -- 127.0.0.1
+
+[2021-09-20 16:26:31,657] -- INFO - decorators.py -- wrap - Line no - 71 --  GET by -- abcd -- IP -- 127.0.0.1
+
+[2021-09-20 16:28:12,501] -- INFO - decorators.py -- wrap - Line no - 71 --  GET by -- abcd -- IP -- 127.0.0.1
+
+[2021-09-20 16:28:19,985] -- INFO - decorators.py -- wrap - Line no - 71 --  GET by -- abcd -- IP -- 127.0.0.1
+
+[2021-09-20 16:28:22,935] -- INFO - decorators.py -- wrap - Line no - 71 --  GET by -- abcd -- IP -- 127.0.0.1
+
+[2021-09-20 16:28:29,781] -- INFO - decorators.py -- wrap - Line no - 71 --  GET by -- abcd -- IP -- 127.0.0.1
+
+[2021-09-20 16:28:31,417] -- INFO - decorators.py -- wrap - Line no - 71 --  GET by -- abcd -- IP -- 127.0.0.1
+
+[2021-09-20 16:28:37,212] -- INFO - decorators.py -- wrap - Line no - 71 --  GET by -- abcd -- IP -- 127.0.0.1
+
+[2021-09-20 16:28:37,225] -- INFO - decorators.py -- wrap - Line no - 71 --  GET by -- abcd -- IP -- 127.0.0.1
+
+[2021-09-20 16:33:11,011] -- INFO - decorators.py -- wrap - Line no - 71 --  GET by -- abcd -- IP -- 127.0.0.1
+
+[2021-09-20 16:33:11,012] -- INFO - decorators.py -- wrap - Line no - 71 --  GET by -- abcd -- IP -- 127.0.0.1
+
+[2021-09-20 16:33:21,750] -- INFO - decorators.py -- wrap - Line no - 71 --  POST by -- abcd -- IP -- 127.0.0.1
+
+[2021-09-20 16:33:21,973] -- INFO - decorators.py -- wrap - Line no - 71 --  POST by -- abcd -- IP -- 127.0.0.1
+
+[2021-09-20 16:33:23,116] -- INFO - views.py -- post - Line no - 195 -- POST by -- abcd DATA -- {'order_id': 10, 'created_date': '2021-09-20T16:33:21.834719+05:30', 'last_updated_date': '2021-09-20T16:33:21.834719+05:30', 'order_date': '2021-09-20', 'is_approved': False, 'is_active': True, 'is_deleted': False, 'created_by': 'abcd', 'last_updated_by': 'abcd', 'order_price': 3300.0, 'order_address': 'qwe rewse rtygfr', 'order_quantity': 5, 'cart_id': [70, 69], 'status': 'Draft', 'name': None, 'user': 1} IP -- 127.0.0.1
+
+[2021-09-20 16:33:23,116] -- INFO - views.py -- post - Line no - 195 -- POST by -- abcd DATA -- {'order_id': 11, 'created_date': '2021-09-20T16:33:21.990387+05:30', 'last_updated_date': '2021-09-20T16:33:21.990387+05:30', 'order_date': '2021-09-20', 'is_approved': False, 'is_active': True, 'is_deleted': False, 'created_by': 'abcd', 'last_updated_by': 'abcd', 'order_price': 3300.0, 'order_address': 'qwe rewse rtygfr', 'order_quantity': 5, 'cart_id': [70, 69], 'status': 'Draft', 'name': None, 'user': 1} IP -- 127.0.0.1
+
+[2021-09-20 16:33:23,162] -- INFO - views.py -- post - Line no - 198 -- POST Successfully Executed by -- abcd -- IP -- 127.0.0.1
+
+[2021-09-20 16:33:23,162] -- INFO - views.py -- post - Line no - 198 -- POST Successfully Executed by -- abcd -- IP -- 127.0.0.1
+
+[2021-09-20 16:33:30,630] -- INFO - decorators.py -- wrap - Line no - 71 --  GET by -- abcd -- IP -- 127.0.0.1
+
+[2021-09-20 17:17:51,806] -- INFO - decorators.py -- wrap - Line no - 71 --  GET by -- abcd -- IP -- 127.0.0.1
+
+[2021-09-20 17:17:55,571] -- INFO - decorators.py -- wrap - Line no - 71 --  GET by -- abcd -- IP -- 127.0.0.1
+
+[2021-09-20 17:18:01,104] -- INFO - decorators.py -- wrap - Line no - 71 --  GET by -- abcd -- IP -- 127.0.0.1
+
+[2021-09-20 17:19:12,063] -- INFO - decorators.py -- wrap - Line no - 71 --  GET by -- abcd -- IP -- 127.0.0.1
+
+[2021-09-20 17:20:09,898] -- INFO - decorators.py -- wrap - Line no - 71 --  GET by -- abcd -- IP -- 127.0.0.1
+
+[2021-09-20 17:20:14,645] -- INFO - decorators.py -- wrap - Line no - 71 --  POST by -- abcd -- IP -- 127.0.0.1
+
+[2021-09-20 17:20:16,532] -- INFO - views.py -- post - Line no - 195 -- POST by -- abcd DATA -- {'order_id': 12, 'created_date': '2021-09-20T17:20:14.719811+05:30', 'last_updated_date': '2021-09-20T17:20:14.719811+05:30', 'order_date': '2021-09-20', 'is_approved': False, 'is_active': True, 'is_deleted': False, 'created_by': 'abcd', 'last_updated_by': 'abcd', 'order_price': 500.0, 'order_address': 'qwe rewse rtygfr', 'order_quantity': 1, 'cart_id': [71], 'status': 'Draft', 'name': None, 'user': 1} IP -- 127.0.0.1
+
+[2021-09-20 17:20:16,533] -- INFO - views.py -- post - Line no - 198 -- POST Successfully Executed by -- abcd -- IP -- 127.0.0.1
+
+[2021-09-20 17:20:17,066] -- INFO - decorators.py -- wrap - Line no - 71 --  GET by -- abcd -- IP -- 127.0.0.1
+
+[2021-09-20 17:20:29,402] -- INFO - decorators.py -- wrap - Line no - 71 --  GET by -- abcd -- IP -- 127.0.0.1
+
+[2021-09-20 17:20:31,723] -- INFO - decorators.py -- wrap - Line no - 71 --  GET by -- abcd -- IP -- 127.0.0.1
+
+[2021-09-20 17:20:40,582] -- INFO - decorators.py -- wrap - Line no - 71 --  GET by -- abcd -- IP -- 127.0.0.1
+
+[2021-09-20 17:20:41,026] -- INFO - decorators.py -- wrap - Line no - 71 --  GET by -- abcd -- IP -- 127.0.0.1
+
+[2021-09-20 17:25:02,005] -- INFO - decorators.py -- wrap - Line no - 71 --  GET by -- abcd -- IP -- 127.0.0.1
+
+[2021-09-20 17:25:04,336] -- INFO - decorators.py -- wrap - Line no - 71 --  GET by -- abcd -- IP -- 127.0.0.1
+
+[2021-09-20 17:25:09,824] -- INFO - decorators.py -- wrap - Line no - 71 --  GET by -- abcd -- IP -- 127.0.0.1
+
+[2021-09-20 17:25:16,448] -- INFO - decorators.py -- wrap - Line no - 71 --  GET by -- abcd -- IP -- 127.0.0.1
+
+[2021-09-20 17:26:16,467] -- INFO - decorators.py -- wrap - Line no - 71 --  GET by -- abcd -- IP -- 127.0.0.1
+
+[2021-09-20 17:28:50,387] -- INFO - decorators.py -- wrap - Line no - 71 --  GET by -- abcd -- IP -- 127.0.0.1
+
+[2021-09-20 17:29:06,393] -- INFO - decorators.py -- wrap - Line no - 71 --  POST by -- abcd -- IP -- 127.0.0.1
+
+[2021-09-20 17:29:06,859] -- INFO - views.py -- post - Line no - 195 -- POST by -- abcd DATA -- {'order_id': 13, 'created_date': '2021-09-20T17:29:06.411569+05:30', 'last_updated_date': '2021-09-20T17:29:06.411569+05:30', 'order_date': '2021-09-20', 'is_approved': False, 'is_active': True, 'is_deleted': False, 'created_by': 'abcd', 'last_updated_by': 'abcd', 'order_price': 500.0, 'order_address': 'qwe rewse rtygfr', 'order_quantity': 1, 'cart_id': [73], 'status': 'Draft', 'name': None, 'user': 1} IP -- 127.0.0.1
+
+[2021-09-20 17:29:06,862] -- INFO - views.py -- post - Line no - 198 -- POST Successfully Executed by -- abcd -- IP -- 127.0.0.1
+
+[2021-09-20 17:29:07,147] -- INFO - decorators.py -- wrap - Line no - 71 --  GET by -- abcd -- IP -- 127.0.0.1
+
+[2021-09-20 17:30:41,421] -- INFO - decorators.py -- wrap - Line no - 71 --  GET by -- abcd -- IP -- 127.0.0.1
+
+[2021-09-20 17:30:44,693] -- INFO - decorators.py -- wrap - Line no - 71 --  GET by -- abcd -- IP -- 127.0.0.1
+
+[2021-09-20 17:30:55,159] -- INFO - decorators.py -- wrap - Line no - 71 --  POST by -- abcd -- IP -- 127.0.0.1
+
+[2021-09-20 17:30:55,190] -- INFO - views.py -- post - Line no - 195 -- POST by -- abcd DATA -- {'order_id': 14, 'created_date': '2021-09-20T17:30:55.179102+05:30', 'last_updated_date': '2021-09-20T17:30:55.179102+05:30', 'order_date': '2021-09-20', 'is_approved': False, 'is_active': True, 'is_deleted': False, 'created_by': 'abcd', 'last_updated_by': 'abcd', 'order_price': 500.0, 'order_address': 'qwe rewse rtygfr', 'order_quantity': 1, 'cart_id': [73], 'status': 'Draft', 'name': None, 'user': 1} IP -- 127.0.0.1
+
+[2021-09-20 17:30:55,191] -- INFO - views.py -- post - Line no - 198 -- POST Successfully Executed by -- abcd -- IP -- 127.0.0.1
+
+[2021-09-20 17:30:55,289] -- INFO - decorators.py -- wrap - Line no - 71 --  GET by -- abcd -- IP -- 127.0.0.1
+
+[2021-09-20 17:34:45,442] -- INFO - decorators.py -- wrap - Line no - 71 --  GET by -- abcd -- IP -- 127.0.0.1
+
+[2021-09-20 17:34:50,907] -- INFO - decorators.py -- wrap - Line no - 71 --  GET by -- abcd -- IP -- 127.0.0.1
+
+[2021-09-20 17:34:55,688] -- INFO - decorators.py -- wrap - Line no - 71 --  POST by -- abcd -- IP -- 127.0.0.1
+
+[2021-09-20 17:34:55,740] -- INFO - views.py -- post - Line no - 195 -- POST by -- abcd DATA -- {'order_id': 15, 'created_date': '2021-09-20T17:34:55.706592+05:30', 'last_updated_date': '2021-09-20T17:34:55.706592+05:30', 'order_date': '2021-09-20', 'is_approved': False, 'is_active': True, 'is_deleted': False, 'created_by': 'abcd', 'last_updated_by': 'abcd', 'order_price': 500.0, 'order_address': 'qwe rewse rtygfr', 'order_quantity': 1, 'cart_id': [73], 'status': 'Draft', 'name': None, 'user': 1} IP -- 127.0.0.1
+
+[2021-09-20 17:34:55,740] -- INFO - views.py -- post - Line no - 198 -- POST Successfully Executed by -- abcd -- IP -- 127.0.0.1
+
+[2021-09-20 17:34:56,195] -- INFO - decorators.py -- wrap - Line no - 71 --  GET by -- abcd -- IP -- 127.0.0.1
+
+[2021-09-20 17:35:02,919] -- INFO - decorators.py -- wrap - Line no - 71 --  GET by -- abcd -- IP -- 127.0.0.1
+
+[2021-09-20 17:36:24,389] -- INFO - decorators.py -- wrap - Line no - 71 --  GET by -- abcd -- IP -- 127.0.0.1
+
+[2021-09-20 17:36:33,585] -- INFO - decorators.py -- wrap - Line no - 71 --  POST by -- abcd -- IP -- 127.0.0.1
+
+[2021-09-20 17:36:33,603] -- INFO - views.py -- post - Line no - 195 -- POST by -- abcd DATA -- {'order_id': 16, 'created_date': '2021-09-20T17:36:33.601065+05:30', 'last_updated_date': '2021-09-20T17:36:33.601065+05:30', 'order_date': '2021-09-20', 'is_approved': False, 'is_active': True, 'is_deleted': False, 'created_by': 'abcd', 'last_updated_by': 'abcd', 'order_price': 500.0, 'order_address': 'qwe rewse rtygfr', 'order_quantity': 1, 'cart_id': [73], 'status': 'Draft', 'name': None, 'user': 1} IP -- 127.0.0.1
+
+[2021-09-20 17:36:33,603] -- INFO - views.py -- post - Line no - 198 -- POST Successfully Executed by -- abcd -- IP -- 127.0.0.1
+
+[2021-09-20 17:36:33,997] -- INFO - decorators.py -- wrap - Line no - 71 --  GET by -- abcd -- IP -- 127.0.0.1
+
+[2021-09-20 17:36:44,280] -- INFO - decorators.py -- wrap - Line no - 71 --  GET by -- abcd -- IP -- 127.0.0.1
+
+[2021-09-20 17:38:46,621] -- INFO - decorators.py -- wrap - Line no - 71 --  GET by -- abcd -- IP -- 127.0.0.1
+
+[2021-09-20 17:38:55,469] -- INFO - decorators.py -- wrap - Line no - 71 --  POST by -- abcd -- IP -- 127.0.0.1
+
+[2021-09-20 17:38:56,311] -- INFO - views.py -- post - Line no - 195 -- POST by -- abcd DATA -- {'order_id': 17, 'created_date': '2021-09-20T17:38:55.487551+05:30', 'last_updated_date': '2021-09-20T17:38:55.487551+05:30', 'order_date': '2021-09-20', 'is_approved': False, 'is_active': True, 'is_deleted': False, 'created_by': 'abcd', 'last_updated_by': 'abcd', 'order_price': 500.0, 'order_address': 'qwe rewse rtygfr', 'order_quantity': 1, 'cart_id': [73], 'status': 'Draft', 'name': None, 'user': 1} IP -- 127.0.0.1
+
+[2021-09-20 17:38:56,311] -- INFO - views.py -- post - Line no - 198 -- POST Successfully Executed by -- abcd -- IP -- 127.0.0.1
+
+[2021-09-20 17:38:56,891] -- INFO - decorators.py -- wrap - Line no - 71 --  GET by -- abcd -- IP -- 127.0.0.1
+
+[2021-09-20 17:40:38,622] -- INFO - decorators.py -- wrap - Line no - 71 --  GET by -- abcd -- IP -- 127.0.0.1
+
+[2021-09-20 17:40:44,244] -- INFO - decorators.py -- wrap - Line no - 71 --  GET by -- abcd -- IP -- 127.0.0.1
+
+[2021-09-20 17:41:08,731] -- INFO - decorators.py -- wrap - Line no - 71 --  POST by -- abcd -- IP -- 127.0.0.1
+
+[2021-09-20 17:41:08,934] -- INFO - views.py -- post - Line no - 195 -- POST by -- abcd DATA -- {'order_id': 18, 'created_date': '2021-09-20T17:41:08.751325+05:30', 'last_updated_date': '2021-09-20T17:41:08.751325+05:30', 'order_date': '2021-09-20', 'is_approved': False, 'is_active': True, 'is_deleted': False, 'created_by': 'abcd', 'last_updated_by': 'abcd', 'order_price': 500.0, 'order_address': 'qwe rewse rtygfr', 'order_quantity': 1, 'cart_id': [73], 'status': 'Draft', 'name': None, 'user': 1} IP -- 127.0.0.1
+
+[2021-09-20 17:41:08,934] -- INFO - views.py -- post - Line no - 198 -- POST Successfully Executed by -- abcd -- IP -- 127.0.0.1
+
+[2021-09-20 17:41:09,331] -- INFO - decorators.py -- wrap - Line no - 71 --  GET by -- abcd -- IP -- 127.0.0.1
+
+[2021-09-20 17:41:46,536] -- INFO - decorators.py -- wrap - Line no - 71 --  GET by -- abcd -- IP -- 127.0.0.1
+
+[2021-09-20 17:42:13,447] -- INFO - decorators.py -- wrap - Line no - 71 --  GET by -- abcd -- IP -- 127.0.0.1
+
+[2021-09-20 17:42:23,897] -- INFO - decorators.py -- wrap - Line no - 71 --  GET by -- abcd -- IP -- 127.0.0.1
+
+[2021-09-20 17:42:51,208] -- INFO - decorators.py -- wrap - Line no - 71 --  GET by -- abcd -- IP -- 127.0.0.1
+
+[2021-09-20 17:43:08,485] -- INFO - decorators.py -- wrap - Line no - 71 --  GET by -- abcd -- IP -- 127.0.0.1
+
+[2021-09-20 17:43:14,873] -- INFO - decorators.py -- wrap - Line no - 71 --  POST by -- abcd -- IP -- 127.0.0.1
+
+[2021-09-20 17:43:15,431] -- INFO - views.py -- post - Line no - 195 -- POST by -- abcd DATA -- {'order_id': 19, 'created_date': '2021-09-20T17:43:14.893215+05:30', 'last_updated_date': '2021-09-20T17:43:14.893215+05:30', 'order_date': '2021-09-20', 'is_approved': False, 'is_active': True, 'is_deleted': False, 'created_by': 'abcd', 'last_updated_by': 'abcd', 'order_price': 500.0, 'order_address': 'qwe rewse rtygfr', 'order_quantity': 1, 'cart_id': [73], 'status': 'Draft', 'name': None, 'user': 1} IP -- 127.0.0.1
+
+[2021-09-20 17:43:15,431] -- INFO - views.py -- post - Line no - 198 -- POST Successfully Executed by -- abcd -- IP -- 127.0.0.1
+
+[2021-09-20 17:43:16,814] -- INFO - decorators.py -- wrap - Line no - 71 --  GET by -- abcd -- IP -- 127.0.0.1
+
+[2021-09-20 17:43:22,204] -- INFO - decorators.py -- wrap - Line no - 71 --  GET by -- abcd -- IP -- 127.0.0.1
+
+[2021-09-20 17:49:11,769] -- INFO - decorators.py -- wrap - Line no - 71 --  GET by -- abcd -- IP -- 127.0.0.1
+
+[2021-09-20 17:49:18,658] -- INFO - decorators.py -- wrap - Line no - 71 --  GET by -- abcd -- IP -- 127.0.0.1
+
+[2021-09-20 17:51:04,640] -- INFO - decorators.py -- wrap - Line no - 71 --  POST by -- abcd -- IP -- 127.0.0.1
+
+[2021-09-20 17:51:04,694] -- INFO - views.py -- post - Line no - 195 -- POST by -- abcd DATA -- {'order_id': 20, 'created_date': '2021-09-20T17:51:04.661372+05:30', 'last_updated_date': '2021-09-20T17:51:04.661372+05:30', 'order_date': '2021-09-20', 'is_approved': False, 'is_active': True, 'is_deleted': False, 'created_by': 'abcd', 'last_updated_by': 'abcd', 'order_price': 500.0, 'order_address': 'qwe rewse rtygfr', 'order_quantity': 1, 'cart_id': [73], 'status': 'Draft', 'name': None, 'user': 1} IP -- 127.0.0.1
+
+[2021-09-20 17:51:04,694] -- INFO - views.py -- post - Line no - 198 -- POST Successfully Executed by -- abcd -- IP -- 127.0.0.1
+
+[2021-09-20 17:51:04,930] -- INFO - decorators.py -- wrap - Line no - 71 --  GET by -- abcd -- IP -- 127.0.0.1
+
+[2021-09-20 17:52:40,965] -- INFO - decorators.py -- wrap - Line no - 71 --  GET by -- abcd -- IP -- 127.0.0.1
+
+[2021-09-20 17:52:47,202] -- INFO - decorators.py -- wrap - Line no - 71 --  GET by -- abcd -- IP -- 127.0.0.1
+
+[2021-09-20 17:52:56,102] -- INFO - decorators.py -- wrap - Line no - 71 --  POST by -- abcd -- IP -- 127.0.0.1
+
+[2021-09-20 17:52:56,122] -- INFO - views.py -- post - Line no - 195 -- POST by -- abcd DATA -- {'order_id': 21, 'created_date': '2021-09-20T17:52:56.120748+05:30', 'last_updated_date': '2021-09-20T17:52:56.120748+05:30', 'order_date': '2021-09-20', 'is_approved': False, 'is_active': True, 'is_deleted': False, 'created_by': 'abcd', 'last_updated_by': 'abcd', 'order_price': 500.0, 'order_address': 'qwe rewse rtygfr', 'order_quantity': 1, 'cart_id': [73], 'status': 'Draft', 'name': None, 'user': 1} IP -- 127.0.0.1
+
+[2021-09-20 17:52:56,123] -- INFO - views.py -- post - Line no - 198 -- POST Successfully Executed by -- abcd -- IP -- 127.0.0.1
+
+[2021-09-20 17:52:56,299] -- INFO - decorators.py -- wrap - Line no - 71 --  GET by -- abcd -- IP -- 127.0.0.1
+
+[2021-09-20 17:56:44,020] -- INFO - decorators.py -- wrap - Line no - 71 --  GET by -- abcd -- IP -- 127.0.0.1
+
+[2021-09-20 17:56:53,741] -- INFO - decorators.py -- wrap - Line no - 71 --  GET by -- abcd -- IP -- 127.0.0.1
+
+[2021-09-20 17:57:07,422] -- INFO - decorators.py -- wrap - Line no - 71 --  POST by -- abcd -- IP -- 127.0.0.1
+
+[2021-09-20 17:57:07,529] -- INFO - views.py -- post - Line no - 195 -- POST by -- abcd DATA -- {'order_id': 22, 'created_date': '2021-09-20T17:57:07.444267+05:30', 'last_updated_date': '2021-09-20T17:57:07.444267+05:30', 'order_date': '2021-09-20', 'is_approved': False, 'is_active': True, 'is_deleted': False, 'created_by': 'abcd', 'last_updated_by': 'abcd', 'order_price': 500.0, 'order_address': 'qwe rewse rtygfr', 'order_quantity': 1, 'cart_id': [73], 'status': 'Draft', 'name': None, 'user': 1} IP -- 127.0.0.1
+
+[2021-09-20 17:57:07,535] -- INFO - views.py -- post - Line no - 198 -- POST Successfully Executed by -- abcd -- IP -- 127.0.0.1
+
+[2021-09-20 17:57:08,165] -- INFO - decorators.py -- wrap - Line no - 71 --  GET by -- abcd -- IP -- 127.0.0.1
+
+[2021-09-20 17:58:44,563] -- INFO - decorators.py -- wrap - Line no - 71 --  GET by -- abcd -- IP -- 127.0.0.1
+
+[2021-09-20 17:58:45,723] -- INFO - decorators.py -- wrap - Line no - 71 --  GET by -- abcd -- IP -- 127.0.0.1
+
+[2021-09-20 17:58:54,629] -- INFO - decorators.py -- wrap - Line no - 71 --  POST by -- abcd -- IP -- 127.0.0.1
+
+[2021-09-20 17:58:54,646] -- INFO - views.py -- post - Line no - 195 -- POST by -- abcd DATA -- {'order_id': 23, 'created_date': '2021-09-20T17:58:54.644238+05:30', 'last_updated_date': '2021-09-20T17:58:54.644238+05:30', 'order_date': '2021-09-20', 'is_approved': False, 'is_active': True, 'is_deleted': False, 'created_by': 'abcd', 'last_updated_by': 'abcd', 'order_price': 500.0, 'order_address': 'qwe rewse rtygfr', 'order_quantity': 1, 'cart_id': [73], 'status': 'Draft', 'name': None, 'user': 1} IP -- 127.0.0.1
+
+[2021-09-20 17:58:54,647] -- INFO - views.py -- post - Line no - 198 -- POST Successfully Executed by -- abcd -- IP -- 127.0.0.1
+
+[2021-09-20 17:58:55,862] -- INFO - decorators.py -- wrap - Line no - 71 --  GET by -- abcd -- IP -- 127.0.0.1
+
+[2021-09-20 17:59:03,497] -- INFO - decorators.py -- wrap - Line no - 71 --  GET by -- abcd -- IP -- 127.0.0.1
+
+[2021-09-20 18:01:30,516] -- INFO - decorators.py -- wrap - Line no - 71 --  GET by -- abcd -- IP -- 127.0.0.1
+
+[2021-09-20 18:02:13,100] -- INFO - decorators.py -- wrap - Line no - 71 --  GET by -- abcd -- IP -- 127.0.0.1
+
+[2021-09-20 18:03:41,571] -- INFO - decorators.py -- wrap - Line no - 71 --  POST by -- abcd -- IP -- 127.0.0.1
+
+[2021-09-20 18:03:41,669] -- INFO - views.py -- post - Line no - 195 -- POST by -- abcd DATA -- {'order_id': 24, 'created_date': '2021-09-20T18:03:41.588576+05:30', 'last_updated_date': '2021-09-20T18:03:41.588576+05:30', 'order_date': '2021-09-20', 'is_approved': False, 'is_active': True, 'is_deleted': False, 'created_by': 'abcd', 'last_updated_by': 'abcd', 'order_price': 500.0, 'order_address': 'qwe rewse rtygfr', 'order_quantity': 1, 'cart_id': [73], 'status': 'Draft', 'name': None, 'user': 1} IP -- 127.0.0.1
+
+[2021-09-20 18:03:41,669] -- INFO - views.py -- post - Line no - 198 -- POST Successfully Executed by -- abcd -- IP -- 127.0.0.1
+
+[2021-09-20 18:03:42,119] -- INFO - decorators.py -- wrap - Line no - 71 --  GET by -- abcd -- IP -- 127.0.0.1
+
+[2021-09-20 18:03:45,652] -- INFO - decorators.py -- wrap - Line no - 71 --  GET by -- abcd -- IP -- 127.0.0.1
+
+[2021-09-20 18:04:31,337] -- INFO - decorators.py -- wrap - Line no - 71 --  GET by -- abcd -- IP -- 127.0.0.1
+
+[2021-09-20 18:05:17,639] -- INFO - decorators.py -- wrap - Line no - 71 --  GET by -- abcd -- IP -- 127.0.0.1
+
+[2021-09-20 18:06:36,784] -- INFO - decorators.py -- wrap - Line no - 71 --  GET by -- abcd -- IP -- 127.0.0.1
+
+[2021-09-20 18:07:46,923] -- INFO - decorators.py -- wrap - Line no - 71 --  GET by -- abcd -- IP -- 127.0.0.1
+
+[2021-09-20 18:12:20,218] -- INFO - decorators.py -- wrap - Line no - 71 --  GET by -- abcd -- IP -- 127.0.0.1
+
+[2021-09-20 18:12:22,875] -- INFO - decorators.py -- wrap - Line no - 71 --  GET by -- abcd -- IP -- 127.0.0.1
+
+[2021-09-20 18:12:34,037] -- INFO - decorators.py -- wrap - Line no - 71 --  GET by -- abcd -- IP -- 127.0.0.1
+
+[2021-09-20 18:12:36,367] -- INFO - decorators.py -- wrap - Line no - 71 --  GET by -- abcd -- IP -- 127.0.0.1
+
+[2021-09-20 18:12:41,239] -- INFO - decorators.py -- wrap - Line no - 71 --  GET by -- abcd -- IP -- 127.0.0.1
+
+[2021-09-20 18:12:41,248] -- INFO - decorators.py -- wrap - Line no - 71 --  GET by -- abcd -- IP -- 127.0.0.1
+
+[2021-09-20 18:12:41,695] -- INFO - decorators.py -- wrap - Line no - 71 --  GET by -- abcd -- IP -- 127.0.0.1
+
+[2021-09-20 18:13:09,317] -- INFO - decorators.py -- wrap - Line no - 71 --  GET by -- abcd -- IP -- 127.0.0.1
+
+[2021-09-20 18:13:09,323] -- INFO - decorators.py -- wrap - Line no - 71 --  GET by -- abcd -- IP -- 127.0.0.1
+
+[2021-09-20 18:13:09,990] -- INFO - decorators.py -- wrap - Line no - 71 --  GET by -- abcd -- IP -- 127.0.0.1
+
+[2021-09-20 18:14:11,418] -- INFO - decorators.py -- wrap - Line no - 71 --  GET by -- abcd -- IP -- 127.0.0.1
+
+[2021-09-20 18:14:11,542] -- INFO - decorators.py -- wrap - Line no - 71 --  GET by -- abcd -- IP -- 127.0.0.1
+
+[2021-09-20 18:14:16,623] -- INFO - decorators.py -- wrap - Line no - 71 --  POST by -- abcd -- IP -- 127.0.0.1
+
+[2021-09-20 18:14:17,528] -- INFO - views.py -- post - Line no - 195 -- POST by -- abcd DATA -- {'order_id': 25, 'created_date': '2021-09-20T18:14:17.452912+05:30', 'last_updated_date': '2021-09-20T18:14:17.452912+05:30', 'order_date': '2021-09-20', 'is_approved': False, 'is_active': True, 'is_deleted': False, 'created_by': 'abcd', 'last_updated_by': 'abcd', 'order_price': 2000.0, 'order_address': 'qwe rewse rtygfr', 'order_quantity': 2, 'cart_id': [74, 75], 'status': 'Draft', 'name': None, 'user': 1} IP -- 127.0.0.1
+
+[2021-09-20 18:14:17,529] -- INFO - views.py -- post - Line no - 198 -- POST Successfully Executed by -- abcd -- IP -- 127.0.0.1
+
+[2021-09-20 18:14:18,314] -- INFO - decorators.py -- wrap - Line no - 71 --  GET by -- abcd -- IP -- 127.0.0.1
+
+[2021-09-20 18:26:36,703] -- INFO - decorators.py -- wrap - Line no - 71 --  GET by -- abcd -- IP -- 127.0.0.1
+
+[2021-09-20 18:26:36,707] -- INFO - decorators.py -- wrap - Line no - 71 --  GET by -- abcd -- IP -- 127.0.0.1
+
+[2021-09-20 18:38:44,703] -- INFO - decorators.py -- wrap - Line no - 71 --  GET by -- abcd -- IP -- 127.0.0.1
+
+[2021-09-20 18:38:55,930] -- INFO - decorators.py -- wrap - Line no - 71 --  GET by -- abcd -- IP -- 127.0.0.1
+
+[2021-09-20 18:38:57,424] -- INFO - decorators.py -- wrap - Line no - 71 --  GET by -- abcd -- IP -- 127.0.0.1
+
+[2021-09-20 18:39:06,098] -- INFO - decorators.py -- wrap - Line no - 71 --  GET by -- abcd -- IP -- 127.0.0.1
+
+[2021-09-20 18:39:07,392] -- INFO - decorators.py -- wrap - Line no - 71 --  GET by -- abcd -- IP -- 127.0.0.1
+
+[2021-09-20 18:39:12,264] -- INFO - decorators.py -- wrap - Line no - 71 --  GET by -- abcd -- IP -- 127.0.0.1
+
+[2021-09-20 18:39:12,287] -- INFO - decorators.py -- wrap - Line no - 71 --  GET by -- abcd -- IP -- 127.0.0.1
+
+[2021-09-20 18:39:18,645] -- INFO - decorators.py -- wrap - Line no - 71 --  POST by -- abcd -- IP -- 127.0.0.1
+
+[2021-09-20 18:39:18,788] -- INFO - views.py -- post - Line no - 195 -- POST by -- abcd DATA -- {'order_id': 26, 'created_date': '2021-09-20T18:39:18.662534+05:30', 'last_updated_date': '2021-09-20T18:39:18.662534+05:30', 'order_date': '2021-09-20', 'is_approved': False, 'is_active': True, 'is_deleted': False, 'created_by': 'abcd', 'last_updated_by': 'abcd', 'order_price': 2000.0, 'order_address': 'qwe rewse rtygfr', 'order_quantity': 2, 'cart_id': [76, 77], 'status': 'Draft', 'name': None, 'user': 1} IP -- 127.0.0.1
+
+[2021-09-20 18:39:18,789] -- INFO - views.py -- post - Line no - 198 -- POST Successfully Executed by -- abcd -- IP -- 127.0.0.1
+
+[2021-09-20 18:39:19,189] -- INFO - decorators.py -- wrap - Line no - 71 --  GET by -- abcd -- IP -- 127.0.0.1
+
+[2021-09-21 12:53:55,253] -- INFO - decorators.py -- wrap - Line no - 71 --  GET by -- abcd -- IP -- 127.0.0.1
+
+[2021-09-21 15:11:55,004] -- INFO - decorators.py -- wrap - Line no - 71 --  GET by -- abcd -- IP -- 127.0.0.1
+
+[2021-09-21 16:22:56,938] -- INFO - decorators.py -- wrap - Line no - 71 --  GET by -- abcd -- IP -- 127.0.0.1
+
+[2021-09-21 17:08:23,802] -- INFO - decorators.py -- wrap - Line no - 71 --  GET by -- abcd -- IP -- 127.0.0.1
+
+[2021-09-21 17:08:23,794] -- INFO - decorators.py -- wrap - Line no - 71 --  GET by -- abcd -- IP -- 127.0.0.1
+
+[2021-09-21 17:08:23,802] -- INFO - decorators.py -- wrap - Line no - 71 --  GET by -- abcd -- IP -- 127.0.0.1
+

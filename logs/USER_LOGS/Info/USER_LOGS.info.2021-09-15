@@ -1,0 +1,12 @@
+[2021-09-14 16:22:41,999] -- INFO - decorators.py -- wrap - Line no - 88 -- Data by POST for Incoming Login Request by -- abcd -- IP -- 127.0.0.1
+
+[2021-09-14 16:23:05,204] -- INFO - views.py -- post - Line no - 686 -- Token Successful for user -- abcd -- IP -- 127.0.0.1
+
+[2021-09-14 18:05:54,089] -- INFO - decorators.py -- wrap - Line no - 88 -- Data by POST for Incoming Login Request by -- abcd -- IP -- 127.0.0.1
+
+[2021-09-14 18:06:14,829] -- INFO - views.py -- post - Line no - 686 -- Token Successful for user -- abcd -- IP -- 127.0.0.1
+
+[2021-09-15 11:54:51,082] -- INFO - decorators.py -- wrap - Line no - 88 -- Data by POST for Incoming Login Request by -- abcd -- IP -- 127.0.0.1
+
+[2021-09-15 11:55:11,514] -- INFO - views.py -- post - Line no - 686 -- Token Successful for user -- abcd -- IP -- 127.0.0.1
+
